@@ -1,0 +1,298 @@
+body{
+
+	border: 10px solid #B9E8F7;
+	margin: 0px;
+	padding: 0px;
+	font-family: "ff-meta-web-pro", sans-serif;
+	font-size: 14px;
+	color: #4B4C58 ;
+	line-height: 2;
+
+}
+
+/*starting of the header*/
+
+/*logo and company name*/
+.main_header{
+
+	text-align: center;
+	padding-top: 30px;
+}
+
+#company{
+	
+	color: #9F6238;
+	font-size: 34px;
+	font-weight: bold;
+	 
+}
+
+#company1{
+
+	margin-top: -12px;
+}
+
+#company1 span{
+	display: inline-block;
+	position: relative;
+
+
+}
+
+#company1 span:before,
+#company1 span:after{
+	content: "";
+	position: absolute;
+	border: 1px solid gray;
+	width: 30px;
+}
+
+#company1 span:before{
+	left: 100%;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+#company1 span:after{
+	right: 100%;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+
+/* company's introduction*/
+.intro{
+	
+	font-size: 28px ;
+	max-width: 933px;
+	margin-left: 230px;
+	line-height: 1.4;
+
+}
+
+/*styling contact*/
+#contact{
+	color: #00A3D8;
+	font-size: 20px;
+	margin-left: 13px;
+	margin-top: 60px;
+}
+
+#contact span{
+	display: inline-block;
+	position: relative;
+}
+
+#contact span:before,
+#contact span:after{
+
+	content: "";
+	border: 1px solid gray;
+	position: absolute;
+	width: 30px;
+}
+
+#contact span:before{
+	left: 100%;
+	margin-left: 15px;
+	margin-top: 19px;
+}
+
+#contact span:after{
+
+	right: 100%;
+	margin-right: 15px;
+	margin-top: 19px;
+
+}
+
+/*large image styling*/
+
+.main_image img{
+
+	width: 1380px;
+	margin-top: -84px;
+}
+
+
+/*End of the header*/
+
+
+
+/* main section starts here */
+
+.main_section{
+	margin: 0 180px 0 180px;
+}
+
+
+/* styling of the content header*/
+
+.main_section h5{
+
+	text-align: center;
+	margin-top: 30px;
+	color: #7A4D39;
+	font-size: 20px;
+	
+
+}
+
+.main_section h5 span{
+	display: inline-block;
+	position: relative;
+}
+
+.main_section h5 span:before,
+.main_section h5 span:after{
+	content: "";
+	border: 1px solid gray;
+	position: absolute;
+	width: 400px;
+}
+
+.main_section h5 span:before{
+	left: 100%;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.main_section h5 span:after{
+	right: 100%;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+
+/* Dr Gursewak Singh*/
+.left_content{
+	float: left;
+	max-width: 40%;
+	margin-left: 50px;
+
+}
+
+#doc1{
+	text-align: center;
+	margin-top: -11px;
+}
+
+#pic1{
+	height: 170px;
+	width: auto;
+	border-radius: 100px;
+	margin-left: 117px;
+}
+
+.right_content{
+	float: right;
+	margin-left: 30px;
+	max-width: 40%;
+
+}
+
+/*Dr Kuldip Jindal*/
+
+#doc2{
+	text-align: center;
+	margin-top: -11px;
+}
+
+#pic2{
+	height: 170px;
+	width: auto;
+	border-radius: 100px;
+	margin-left: 117px;
+
+}
+
+
+/* content ends here*/
+
+footer{
+	margin: 0 180px 0 180px;
+	clear: both;
+	padding-bottom: 150px;
+
+}
+
+/* "OUR SERVICES" section*/
+
+.left_footer1{
+	float: left;
+	margin-left: 45px;
+}
+
+
+#services{
+	text-align: center;
+	color: #7A4D39;
+	font-size: 20px;
+
+}
+
+
+#left_list{
+	float: left;
+	list-style-type: none;
+
+}
+
+#right_list{
+	float: right;
+	list-style-type: none;
+	margin-left: 97px;
+
+}
+
+
+/* "WE'RE OPEN" section */
+
+.left_footer2{
+	float: left;
+	margin-left: 45px;
+	clear: left;
+
+}
+
+#open{
+	text-align: center;
+	padding: 10px 146px 10px ;
+	color: #7A4D39;
+	font-size: 20px;
+	
+}
+
+.left_footer2 li{
+	list-style-type: none;
+}
+
+
+/* "OUR LOCATION" right footer*/
+
+.right_footer{
+	max-width: 400px;
+    position: relative;
+    margin-left: 650px;
+    padding-top: 1px;
+
+}
+
+#location{
+	text-align: center;
+	color: #7A4D39;
+	font-size: 20px;
+}
+/* footer ends here */
+
+/* paw logo at the end of the page */
+.img_bottom{
+
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.img_bottom img{
+
+	height: 30px;
+	width: 25px;
+}
